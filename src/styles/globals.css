@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Figma Design Tokens:
+   Gray-C/500: #A8B2BD
+   Gray-C/Obsidian: #0B0D10
+   Gray-C/600: #6F7882
+   New/CP-CPP/Purple 01: #4E2FD2
+   Gray-C/400: #CED6DE
+   Gray-C/300: #E6EBF0
+   Gray-C/200: #F0F4F7
+   utility/gray-70: #575757
+   Old/Background/Surface: #FFFFFF
+   Teal/Savings: #0AA288
+*/
+
+@layer base {
+  body {
+    font-family: 'Gilroy', 'Inter', system-ui, -apple-system, sans-serif;
+    background: #ffffff;
+    color: #0B0D10;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+}
+
+@layer utilities {
+  .text-obsidian {
+    color: #0B0D10;
+  }
+  .bg-wyze-blue-50 {
+    background-color: #EDF4FF;
+  }
+  .text-wyze-gray-500 {
+    color: #A8B2BD;
+  }
+}
