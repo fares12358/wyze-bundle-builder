@@ -78,3 +78,9 @@ Edit `src/data/products.json` to change names, prices, variants, or image paths.
 - [React 18](https://react.dev)
 - [Vite](https://vitejs.dev)
 - [Tailwind CSS v3](https://tailwindcss.com)
+
+## INFO
+- Fares Mohamed Mostafa
+- Test ID: 41583
+- Email: fares.dev.m@gmail.com
+- Portfolio: fares-dev.com
